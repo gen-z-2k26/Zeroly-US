@@ -88,7 +88,7 @@ async function mirrorFetch(
   if (!origin) throw new Error("WooCommerce is not configured.");
   const headers: Record<string, string> = {
     Accept: "application/json",
-    "User-Agent": "DroviaStorefront/1.0",
+    "User-Agent": "ZerolyStorefront/1.0",
   };
   const cookie = cookieHeader(jar);
   if (cookie) headers.Cookie = cookie;
@@ -217,7 +217,7 @@ async function checkoutTracker(jar: Jar) {
   }
   const origin = getWooOrigin();
   if (!origin) throw new Error("WooCommerce is not configured.");
-  const headers: Record<string, string> = { "User-Agent": "DroviaStorefront/1.0" };
+  const headers: Record<string, string> = { "User-Agent": "ZerolyStorefront/1.0" };
   const cookie = cookieHeader(jar);
   if (cookie) headers.Cookie = cookie;
   const response = await fetch(`${origin}/checkout/`, {
@@ -276,7 +276,7 @@ async function postCapture(jar: Jar, cart: StoreCart | null) {
   const ajaxurl = tracker.ajaxurl;
   const headers: Record<string, string> = {
     "Content-Type": "application/x-www-form-urlencoded",
-    "User-Agent": "DroviaStorefront/1.0",
+    "User-Agent": "ZerolyStorefront/1.0",
   };
   const cookie = cookieHeader(jar);
   if (cookie) headers.Cookie = cookie;

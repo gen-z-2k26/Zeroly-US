@@ -70,6 +70,9 @@ export async function generateMetadata(): Promise<Metadata> {
         description,
         images: [ogImage],
       },
+      verification: {
+        google: "JPpfKYtdL7EkGElZHJl5Rl3onpHVu6554FK4VWNdIkE",
+      },
       robots: {
         index: true,
         follow: true,

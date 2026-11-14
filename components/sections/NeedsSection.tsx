@@ -7,34 +7,34 @@ import { cn } from "@/lib/utils";
 
 const needs = [
   {
-    title: "Kitchen and laundry",
-    text: "Refrigerators, wine fridges, range hoods, and laundry appliances for everyday household needs.",
+    title: "Home and kitchen",
+    text: "Refrigerators, washers, dryers, ovens, ranges, range hoods, and wine fridges.",
     image: "/brand/collection-kitchen.jpg",
     alt: "Kitchen with a refrigerator, range hood, and stacked laundry",
     imageClass: "object-[62%_center]",
     tile: "feature" as const,
   },
   {
-    title: "Heating and air",
-    text: "Air conditioners, furnaces, boilers, humidifiers, and space heaters.",
+    title: "Gaming and electronics",
+    text: "Consoles, graphics cards, home theater, and electronic accessories.",
     image: "/brand/collection-climate.jpg",
-    alt: "Living room with a wall-mounted air conditioner",
+    alt: "Living room set up for home entertainment",
     imageClass: "object-[center_22%]",
     tile: "wide" as const,
   },
   {
-    title: "Hair and personal care",
-    text: "Dryers, straighteners, curling irons, and styling sets.",
+    title: "Beauty and care",
+    text: "Hair dryers, straighteners, curling irons, and styling sets.",
     image: "/brand/collection-care.jpg",
     alt: "Hair dryer and straightener on a bathroom vanity",
     imageClass: "object-[center_58%]",
     tile: "compact" as const,
   },
   {
-    title: "Home and commercial",
-    text: "Garage door openers and hand dryers for practical spaces.",
+    title: "Power and outdoor",
+    text: "Portable power, solar kits, drones, scooters, and seasonal gear.",
     image: "/brand/collection-home.jpg",
-    alt: "Garage with a sectional door and opener rail",
+    alt: "Outdoor space ready for seasonal equipment",
     imageClass: "object-[24%_42%]",
     tile: "compact" as const,
   },
@@ -68,8 +68,8 @@ export function NeedsSection() {
       <div className={pageContainer(sectionStackClass)}>
         <SectionHeader
           eyebrow="Collections"
-          title="Shop by what your home needs"
-          subtitle="Four places to start. The products themselves come from the live catalog."
+          title="Shop by what you need"
+          subtitle="Electronics, appliances, beauty, power, and outdoor gear. The products come from the live catalog."
           titleId="needs-heading"
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:h-[42rem] lg:grid-cols-4 lg:grid-rows-2">
@@ -78,7 +78,7 @@ export function NeedsSection() {
               key={item.title}
               href="/products"
               className={cn(
-                "group relative isolate flex overflow-hidden rounded-2xl bg-[#101613] text-white",
+                "group relative isolate flex overflow-hidden rounded-2xl bg-[#07080B] text-white",
                 tileClass[item.tile],
               )}
             >
@@ -98,7 +98,7 @@ export function NeedsSection() {
               />
               <div
                 aria-hidden
-                className="absolute inset-0 bg-gradient-to-t from-[#101613]/92 via-[#101613]/45 to-[#101613]/10"
+                className="absolute inset-0 bg-gradient-to-t from-[#07080B]/92 via-[#07080B]/45 to-[#07080B]/10"
               />
               <div
                 className={cn(
@@ -110,7 +110,7 @@ export function NeedsSection() {
                   {item.title}
                 </h3>
                 <p className={copyClass[item.tile]}>{item.text}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-[#9DCFB0]">
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent">
                   Shop collection
                   <ArrowRight className="size-4 transition-transform duration-200 group-hover:translate-x-0.5" />
                 </span>

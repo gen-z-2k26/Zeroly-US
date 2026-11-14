@@ -35,12 +35,12 @@ export function StorySection({ settings }: { settings: StoreSettings }) {
             id="story-heading"
             className="font-display text-balance text-3xl sm:text-4xl"
           >
-            A better home starts with the right essentials
+            More choices, one destination
           </h2>
           <p className="text-pretty text-lg leading-relaxed text-muted-foreground">
-            DROVIIA is a U.S. online shop for home appliances, climate comfort,
-            and personal care, operated by {settings.contact.legalName} in
-            Gardena, California.
+            {settings.name} is a US online store for gaming, home appliances,
+            beauty, power, and seasonal products, operated by{" "}
+            {settings.contact.legalName}.
           </p>
           <ul className="space-y-3 text-sm leading-relaxed text-muted-foreground">
             <li>Product details, prices, and shipping charges shown before checkout.</li>

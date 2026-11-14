@@ -20,11 +20,11 @@ export function NewsletterSection({ settings }: { settings: StoreSettings }) {
         <div className="grid overflow-hidden rounded-3xl bg-card lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
           <div className="relative min-h-56 sm:min-h-72">
             <Image
-              src="/brand/collection-care.jpg"
-              alt=""
+              src="/brand/footer-image.jpg"
+              alt="Zeroly mark"
               fill
               sizes="(min-width: 1024px) 36vw, 100vw"
-              className="object-cover"
+              className="object-contain bg-[#07080B] p-8"
             />
           </div>
           <div className="flex flex-col justify-center px-6 py-10 sm:px-10 lg:py-14">

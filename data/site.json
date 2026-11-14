@@ -1,8 +1,8 @@
 {
-  "id": "droviia",
-  "name": "DROVIIA",
-  "tagline": "Everyday essentials for better living",
-  "logo": "/brand/droviia-logo-dark.png",
+  "id": "zeroly",
+  "name": "Zeroly",
+  "tagline": "More choices, one destination",
+  "logo": "/brand/zeroly-logo-dark.png",
   "currency": "",
   "currencySymbol": "",
   "currencyPrefix": "",
@@ -12,9 +12,9 @@
   "decimalSeparator": ".",
   "locale": "en-US",
   "contact": {
-    "email": "info@droviia.us",
-    "phone": "+1 (424) 329-0223",
-    "address": "1320 W El Segundo Blvd Ste E, Gardena, CA 90247, United States",
+    "email": "info@zeroly.us",
+    "phone": "+1 (951) 928-3234",
+    "address": "27708 Monroe, Sun City, CA 92585, United States",
     "openingHours": "Mon-Fri, 9:00 AM-5:00 PM PT",
     "legalName": "Modern Closet Spaces LLC",
     "vatNumber": ""
@@ -23,77 +23,160 @@
   "promoId": "",
   "promoCoupon": "",
   "hero": {
-    "headline": "Comfort, convenience, and the essentials for home",
-    "support": "Kitchen appliances, climate control, and personal care, with prices, shipping, and support you can review before you buy."
+    "headline": "More choices, one destination",
+    "support": "Gaming, home appliances, beauty, power, and seasonal products, with free US shipping and policies you can read before you buy."
   },
   "navigation": {
     "header": [
-      { "label": "Home", "href": "/" },
-      { "label": "Shop", "href": "/products" },
-      { "label": "About", "href": "/about-us" },
-      { "label": "FAQs", "href": "/faqs" },
-      { "label": "Contact", "href": "/contact-us" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Shop",
+        "href": "/products"
+      },
+      {
+        "label": "About",
+        "href": "/about-us"
+      },
+      {
+        "label": "FAQs",
+        "href": "/faqs"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact-us"
+      }
     ],
     "footerColumns": [
       {
-        "title": "Quick Links",
+        "title": "Discover Zeroly",
         "slug": "footer-discover",
         "links": [
-          { "label": "Home", "href": "/" },
-          { "label": "Shop All", "href": "/products" },
-          { "label": "Reviews", "href": "/reviews" },
-          { "label": "Categories", "href": "/products" },
-          { "label": "About Us", "href": "/about-us" },
-          { "label": "Our Commitment", "href": "/our-commitment" },
-          { "label": "Contact Us", "href": "/contact-us" }
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Shop All",
+            "href": "/products"
+          },
+          {
+            "label": "Reviews",
+            "href": "/reviews"
+          },
+          {
+            "label": "Categories",
+            "href": "/products"
+          },
+          {
+            "label": "About Us",
+            "href": "/about-us"
+          },
+          {
+            "label": "Our Commitment",
+            "href": "/our-commitment"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact-us"
+          }
         ]
       },
       {
         "title": "Customer Care",
         "slug": "footer-customer-care",
         "links": [
-          { "label": "FAQs", "href": "/faqs" },
-          { "label": "Shipping", "href": "/shipping-policy" },
-          { "label": "Returns", "href": "/return-and-refund-policy" },
-          { "label": "Cancellations", "href": "/cancellation-policy" },
-          { "label": "Order Tracking", "href": "/track-your-order" },
-          { "label": "Payments", "href": "/payment-policy" },
-          { "label": "Warranty", "href": "/warranty" },
-          { "label": "Order Help", "href": "/order-help-center" }
+          {
+            "label": "FAQs",
+            "href": "/faqs"
+          },
+          {
+            "label": "Shipping & Delivery",
+            "href": "/shipping-policy"
+          },
+          {
+            "label": "Returns & Refunds",
+            "href": "/return-and-refund-policy"
+          },
+          {
+            "label": "Order Cancellations",
+            "href": "/cancellation-policy"
+          },
+          {
+            "label": "Track Your Order",
+            "href": "/track-your-order"
+          },
+          {
+            "label": "Payment Options",
+            "href": "/payment-policy"
+          },
+          {
+            "label": "Buy Now, Pay Later",
+            "href": "/buy-now-pay-later"
+          },
+          {
+            "label": "Warranty & Support",
+            "href": "/warranty"
+          },
+          {
+            "label": "Order Help Center",
+            "href": "/order-help-center"
+          }
         ]
       },
       {
-        "title": "Legal & Policies",
+        "title": "Trust & Legal",
         "slug": "footer-trust",
         "links": [
-          { "label": "Privacy", "href": "/privacy-policy" },
-          { "label": "Terms", "href": "/terms-of-service" },
-          { "label": "Cookies", "href": "/cookie-policy" },
-          { "label": "Legal Notice", "href": "/legal-notice" },
-          { "label": "Accessibility", "href": "/accessibility-statement" },
-          { "label": "Privacy Choices", "href": "/your-privacy-choices" }
+          {
+            "label": "Privacy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms-of-service"
+          },
+          {
+            "label": "Cookies",
+            "href": "/cookie-policy"
+          },
+          {
+            "label": "Legal Notice",
+            "href": "/legal-notice"
+          },
+          {
+            "label": "Accessibility",
+            "href": "/accessibility-statement"
+          },
+          {
+            "label": "Privacy Choices",
+            "href": "/your-privacy-choices"
+          }
         ]
       }
     ]
   },
   "footer": {
-    "blurb": "Everyday essentials for a more comfortable home.",
+    "blurb": "More choices, one destination. Free shipping on eligible US orders.",
     "trustLine": "",
     "contactTitle": "Customer Support",
-    "chatLine": "24/7 Live Chat"
+    "chatLine": ""
   },
   "seo": {
-    "title": "DROVIIA | Home appliances and everyday essentials",
-    "description": "Shop home appliances, heating and cooling, and personal care at DROVIIA. Operated by Modern Closet Spaces LLC in Gardena, California.",
+    "title": "Zeroly | More choices, one destination",
+    "description": "Zeroly is a US online store for gaming and electronics, home appliances, beauty, power, drones, and seasonal products. Free shipping on eligible US orders.",
     "keywords": [
-      "DROVIIA",
+      "Zeroly",
+      "gaming electronics",
       "home appliances",
-      "kitchen appliances",
-      "air conditioners",
-      "personal care"
+      "beauty tools",
+      "solar power",
+      "drones"
     ],
-    "ogImage": "/brand/droviia-logo-dark.png",
-    "siteUrl": "https://www.droviia.us"
+    "ogImage": "/brand/zeroly-logo-white.png",
+    "siteUrl": "https://zeroly.us"
   },
   "theme": {
     "font": "var(--font-figtree)",
@@ -102,24 +185,24 @@
     "defaultMode": "system",
     "motion": "subtle",
     "light": {
-      "primary": "#9DCFB0",
-      "accent": "#3E6B52",
+      "primary": "#0A5CFF",
+      "accent": "#0A5CFF",
       "background": "#FFFFFF",
-      "foreground": "#1C2420",
-      "card": "#F4F7F2",
-      "muted": "#E7F0EA",
-      "mutedForeground": "#5C6B62",
-      "border": "rgba(28, 36, 32, 0.12)"
+      "foreground": "#0B0B0F",
+      "card": "#F5F7FB",
+      "muted": "#EEF1F6",
+      "mutedForeground": "#5B6270",
+      "border": "rgba(11,11,15,0.12)"
     },
     "dark": {
-      "primary": "#9DCFB0",
-      "accent": "#B7DCC4",
-      "background": "#101613",
-      "foreground": "#F3F7F2",
-      "card": "#1A2420",
-      "muted": "#24302A",
-      "mutedForeground": "#A8B7AE",
-      "border": "rgba(243, 247, 242, 0.12)"
+      "primary": "#2F7BFF",
+      "accent": "#2F7BFF",
+      "background": "#07080B",
+      "foreground": "#F5F7FA",
+      "card": "#111318",
+      "muted": "#1A1D24",
+      "mutedForeground": "#9AA3B2",
+      "border": "rgba(255,255,255,0.12)"
     }
   },
   "productPage": {
@@ -140,8 +223,8 @@
       {
         "reviewer": "Amina K.",
         "rating": 5,
-        "title": "Better than the photos",
-        "content": "Packaging was careful and the item looked even better in person. Checkout was quick and tracking updates were clear.",
+        "title": "The console arrived packed well",
+        "content": "Ordered a console and it showed up with clear tracking. The listing matched what was in the box.",
         "date": "2026-09-18",
         "verified": true,
         "location": "California, USA"
@@ -149,8 +232,8 @@
       {
         "reviewer": "James R.",
         "rating": 5,
-        "title": "Would order again",
-        "content": "Arrived on time and matched the description. The whole process from cart to delivery felt straightforward.",
+        "title": "Appliance was as described",
+        "content": "The refrigerator listing had the specs I needed, and delivery matched the shipping window on the policy page.",
         "date": "2026-09-02",
         "verified": true,
         "location": "Texas, USA"
@@ -158,8 +241,8 @@
       {
         "reviewer": "Sofia M.",
         "rating": 4,
-        "title": "Great value",
-        "content": "Solid quality for the price. Support answered my question the same day, which made the purchase easy.",
+        "title": "Helpful with a styling tool",
+        "content": "I had a question about a hair dryer before checkout. Support replied with the details from the product page.",
         "date": "2026-08-21",
         "verified": true,
         "location": "New York, USA"
@@ -167,8 +250,8 @@
       {
         "reviewer": "Daniel P.",
         "rating": 5,
-        "title": "Well made and well packed",
-        "content": "Easy to buy, clear tracking, and the product feels well made. I would shop here again without hesitation.",
+        "title": "Power station for a weekend",
+        "content": "Bought a portable power station. Packaging was solid and the order confirmation had everything I needed.",
         "date": "2026-08-09",
         "verified": true,
         "location": "Florida, USA"
@@ -176,8 +259,8 @@
       {
         "reviewer": "Priya S.",
         "rating": 5,
-        "title": "Exactly as described",
-        "content": "Exactly what I needed. The photos were accurate and shipping was smooth from start to finish.",
+        "title": "Straightforward appliance order",
+        "content": "Washer specs were easy to compare. Free shipping and the total were clear before I paid.",
         "date": "2026-07-28",
         "verified": true,
         "location": "Illinois, USA"
@@ -185,8 +268,8 @@
       {
         "reviewer": "Noah L.",
         "rating": 4,
-        "title": "Happy overall",
-        "content": "Happy with the purchase. Quality is good. Delivery took a little longer than I hoped, but the item was worth the wait.",
+        "title": "Drone questions answered",
+        "content": "Asked about a photography drone and got a plain answer. The product arrived ready to set up.",
         "date": "2026-07-14",
         "verified": true,
         "location": "Washington, USA"
@@ -194,8 +277,8 @@
       {
         "reviewer": "Elena V.",
         "rating": 5,
-        "title": "Perfect as a gift",
-        "content": "Gifted this and they loved it. Simple process from cart to door, and the packaging looked ready to give.",
+        "title": "Seasonal order, no fuss",
+        "content": "Patio heater arrived within the stated window. Nothing extra tacked on at checkout.",
         "date": "2026-06-30",
         "verified": true,
         "location": "Colorado, USA"
@@ -203,8 +286,8 @@
       {
         "reviewer": "Omar H.",
         "rating": 5,
-        "title": "Clean store, fair prices",
-        "content": "Clean store, fair prices, and the item was packed securely. No surprises, which is what I want from an online order.",
+        "title": "Graphics card, careful packing",
+        "content": "The card was boxed carefully and matched the model on the page. Tracking updated the next day.",
         "date": "2026-06-11",
         "verified": true,
         "location": "Georgia, USA"
@@ -212,8 +295,8 @@
       {
         "reviewer": "Maya T.",
         "rating": 5,
-        "title": "Fast and careful shipping",
-        "content": "Ordered in the evening and had tracking the next morning. Everything arrived undamaged and ready to use.",
+        "title": "Easy exchange",
+        "content": "The first styling tool was not the one I wanted. The exchange followed the published return steps.",
         "date": "2026-05-22",
         "verified": true,
         "location": "Arizona, USA"
@@ -221,8 +304,8 @@
       {
         "reviewer": "Chris B.",
         "rating": 4,
-        "title": "Would recommend",
-        "content": "Good quality and a fair price. The site was easy to use. I would recommend it to a friend.",
+        "title": "Kitchen range, clear policy",
+        "content": "I read the shipping and return pages before ordering a range. What they said is what happened.",
         "date": "2026-05-04",
         "verified": true,
         "location": "Ohio, USA"
@@ -230,8 +313,8 @@
       {
         "reviewer": "Lina W.",
         "rating": 3,
-        "title": "Fine, not perfect",
-        "content": "The item is fine and does the job. Sizing notes on the page could be a bit clearer, but support helped quickly.",
+        "title": "Scooter delivery",
+        "content": "The scooter took the longer end of the transit window, but the updates were accurate and the item was intact.",
         "date": "2026-04-16",
         "verified": true,
         "location": "Massachusetts, USA"
@@ -239,8 +322,8 @@
       {
         "reviewer": "Theo A.",
         "rating": 5,
-        "title": "Smooth checkout",
-        "content": "Checkout was simple, the total was clear before I paid, and the order showed up when promised.",
+        "title": "Would shop Zeroly again",
+        "content": "Checkout showed the payment methods up front, and the order email arrived right away.",
         "date": "2026-03-29",
         "verified": true,
         "location": "Oregon, USA"
