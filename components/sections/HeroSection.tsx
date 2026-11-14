@@ -24,7 +24,7 @@ export function HeroSection({ settings }: { settings: StoreSettings }) {
     >
       <Image
         src="/brand/home-hero.jpg"
-        alt="Sunlit kitchen with a refrigerator, range, and kettle"
+        alt="Living room with a game console and television, opening onto a kitchen with a range and refrigerator"
         fill
         priority
         sizes="100vw"
